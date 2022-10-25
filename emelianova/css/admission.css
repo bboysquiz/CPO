@@ -1,0 +1,16 @@
+.admission {
+  background-color: #1a1b1c; }
+  .admission__wrapper {
+    margin: 0 auto;
+    padding: 168px 0 0 0;
+    width: 912px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    min-height: 885px; }

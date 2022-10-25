@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__block">
+				<h1 class="header__title">ВСТУПИТЬ &shyв <span class="header__word">CPO</span></h1>
+				<span class="header__subtitle">за 1 день</span>
+				<ul class="header__list">
+					<li class="header__list-item">Работаем напрямую от СРО</li>
+					<li class="header__list-item">Оформление и сопровождение</li>
+					<li class="header__list-item">2 специалиста в НРС в подарок бесплатно</li>
+				</ul>
+			</div>
+			<img src="img/header/img.png" alt="img" class="header__img">
+			<div class="header__button button">вступить в сро</div>
+			<div class="header__popup">
+						<div class="popup__cross-wrp"><span class="popup__cross" id="header-close">x</span></div>
+						<form class="popup__form-header popup__form-sender">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="osnovasro.ru">
+							<input type="hidden" name="admin_email" value="e.emelyanova@osnovasro.ru">
+							<input type="hidden" name="form_subject" value="Вас просят перезвонить">
+							<!-- END Hidden Required Fields -->
+							<label for="header-name" class="popup__input-text-label">Введите Ваше имя:<input type="text" name="Name" id="header-name" class="popup__input-text" required></label>
+							
+							<label for="header-phone" class="popup__input-text-label">Введите Ваш номер телефона:<input type="text" name="Phone" id="header-phone" class="popup__input-phone" placeholder="8(___) ___-____" required></label>
+							<button id="header-submit" class="popup__input-submit">Отправить</button>
+						</form>
+			</div>
+			<div class="header__popup-thx">
+				<div class="popup__cross-wrp"><span class="popup__cross" id="header-close-thx">x</span></div>
+				<h2 class="popup__title-header">Спасибо.</h2>
+				<h3 class="popup__descr-header">В ближайшее время наш менеджер cвяжется с Вами!</h3>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="admission">
+			<div class="admission__wrapper">
+				<h2 class="admission__title">ЧЛЕНСТВО СРО</h2>
+				<div class="admission__blocks">
+					<div class="admission__block">
+						<img src="img/admission/1.png" alt="1" class="admission__block-img">
+						<h3 class="admission__block-title">ДОКУМЕНТЫ</h3>
+						<p class="admission__block-descr">
+							Поможем собрать пакет 
+							документов 
+						</p>
+					</div>
+					<div class="admission__block">
+						<img src="img/admission/2.png" alt="2" class="admission__block-img">
+						<h3 class="admission__block-title">ТРЕБОВАНИЯ</h3>
+						<p class="admission__block-descr">
+							Проверим возможность 
+							внесения ваших 
+							специалистов в НРС 
+							или подберем вам своих 
+							сотрудников
+						</p>
+					</div>
+					<div class="admission__block">
+						<img src="img/admission/3.png" alt="3" class="admission__block-img">
+						<h3 class="admission__block-title">ОПЛАТА</h3>
+						<p class="admission__block-descr">
+							Оплата производится 
+							напрямую СРО
+						</p>
+					</div>
+				</div>
+				<div class="admission__container">
+					<div class="admission__button button">Выписку получаете на следующий день</div>
+					<div class="admission__popup">
+						<div class="popup__cross-wrp"><span class="popup__cross" id="admission-close">x</span></div>
+						<form class="popup__form-header popup__form-sender">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="osnovasro.ru">
+							<input type="hidden" name="admin_email" value="e.emelyanova@osnovasro.ru">
+							<input type="hidden" name="form_subject" value="Вас просят перезвонить">
+							<!-- END Hidden Required Fields -->
+							<label for="header-name" class="popup__input-text-label">Введите Ваше имя:<input type="text" name="Name" id="header-name" class="popup__input-text" required></label>
+							
+							<label for="header-phone" class="popup__input-text-label">Введите Ваш номер телефона:<input type="text" name="Phone" id="header-phone" class="popup__input-phone" placeholder="8(___) ___-____" required></label>
+							<button id="header-submit" class="popup__input-submit">Отправить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="help">
+			<div class="help__wrapper">
+				<h2 class="help__title">Рассчитайте вашу стоимость допуска</h2>
+				<p class="help__descr">
+					Оформление-бесплатно, вы лишь платите обязательные взносы: 
+					взнос в компенсационный фонд, вступительный взнос и страховку
+				</p>
+				<div class="help__container">
+					<div class="help__button button" id="projecting">проектирование</div>
+				  <div class="help__popup" id="projecting-popup">
+						<div class="popup__cross-wrp"><span class="popup__cross" id="projecting-close">x</span></div>
+						<div class="popup__descr-wrp"><h3 class="popup__descr">Расчитайте стоимость вступления:</h3></div>
+						<h2 class="popup__title">РАЗМЕР КОНТРАКТА ОРГАНИЗАЦИИ:</h2>
+						<div class="popup__block">
+							<div class="popup__block-item">До 25 млн. руб.</div>
+							<div class="popup__block-item">До 50 млн. руб.</div>
+							<div class="popup__block-item">До 300 млн. руб.</div>
+							<div class="popup__block-item">Свыше 300 млн. руб.</div>
+						</div>
+						<p class="popup__text">Вы узнаете стоимость по телефону в течении 90 секунд.
+Введите свой номер, чтобы получить результат:</p>
+						<form class="popup__form popup__form-sender">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="osnovasro.ru">
+							<input type="hidden" name="admin_email" value="e.emelyanova@osnovasro.ru">
+							<input type="hidden" name="form_subject" value="Вас просят перезвонить">
+							<!-- END Hidden Required Fields -->
+							<input type="text" name="Phone" class="popup__input-phone" placeholder="8(___) ___-____" required>
+							<button class="popup__input-submit">Рассчитать</button>
+						</form>
+					</div>
+					<div class="help__button button" id="building">строительство</div>
+					<div class="help__popup" id="building-popup">
+						<div class="popup__cross-wrp"><span class="popup__cross" id="building-close">x</span></div>
+						<div class="popup__descr-wrp"><h3 class="popup__descr">Расчитайте стоимость вступления:</h3></div>
+						<h2 class="popup__title">РАЗМЕР КОНТРАКТА ОРГАНИЗАЦИИ:</h2>
+						<div class="popup__block">
+							<div class="popup__block-item">До 60 млн. руб.</div>
+							<div class="popup__block-item">До 500 млн. руб.</div>
+							<div class="popup__block-item">До 3 млрд. руб.</div>
+							<div class="popup__block-item">До 10 млрд. руб.</div>
+						</div>
+						<p class="popup__text">Вы узнаете стоимость по телефону в течении 90 секунд.
+Введите свой номер, чтобы получить результат:</p>
+						<form class="popup__form popup__form-sender">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="osnovasro.ru">
+							<input type="hidden" name="admin_email" value="e.emelyanova@osnovasro.ru">
+							<input type="hidden" name="form_subject" value="Вас просят перезвонить">
+							<!-- END Hidden Required Fields -->
+							<input type="text" name="Phone" class="popup__input-phone" placeholder="8(___) ___-____" required>
+							<button class="popup__input-submit">Рассчитать</button>
+						</form>
+					</div>
+					<div class="help__button button" id="pioneering">изыскания</div>
+					<div class="help__popup" id="pioneering-popup">
+						<div class="popup__cross-wrp"><span class="popup__cross" id="pioneering-close">x</span></div>
+						<div class="popup__descr-wrp"><h3 class="popup__descr">Расчитайте стоимость вступления:</h3></div>
+						<h2 class="popup__title">РАЗМЕР КОНТРАКТА ОРГАНИЗАЦИИ:</h2>
+						<div class="popup__block">
+							<div class="popup__block-item">До 25 млн. руб.</div>
+							<div class="popup__block-item">До 50 млн. руб.</div>
+							<div class="popup__block-item">До 300 млн. руб.</div>
+							<div class="popup__block-item">Свыше 300 млн. руб.</div>
+						</div>
+						<p class="popup__text">Вы узнаете стоимость по телефону в течении 90 секунд.
+Введите свой номер, чтобы получить результат:</p>
+						<form class="popup__form popup__form-sender">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="osnovasro.ru">
+							<input type="hidden" name="admin_email" value="e.emelyanova@osnovasro.ru">
+							<input type="hidden" name="form_subject" value="Вас просят перезвонить">
+							<!-- END Hidden Required Fields -->
+							<input type="text" name="Phone" class="popup__input-phone" placeholder="8(___) ___-____" required>
+							<button class="popup__input-submit">Рассчитать</button>
+						</form>
+					</div>
+				</div>
+				<h2 class="help__subtitle">Чем мы еще можем помочь:</h2>
+				<ul class="help__list">
+					<li class="help__list-item">Соберем и поможем оформить заявление на вступление, документы (Устав, ИНН, ЕГРЮЛ..)</li>
+					<li class="help__list-item">Обучим персонал</li>
+					<li class="help__list-item">Получение сертификата ISO 9001-205</li>
+				</ul>
+				<div class="help__button button button-help" id="help-button">получить помощь</div> 
+				<div class="admission__popup">
+						<div class="popup__cross-wrp"><span class="popup__cross">x</span></div>
+						<form class="popup__form-header popup__form-sender">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="osnovasro.ru">
+							<input type="hidden" name="admin_email" value="e.emelyanova@osnovasro.ru">
+							<input type="hidden" name="form_subject" value="Вас просят перезвонить">
+							<!-- END Hidden Required Fields -->
+							<label for="header-name" class="popup__input-text-label">Введите Ваше имя:<input type="text" name="Name" id="header-name" class="popup__input-text" required></label>
+							
+							<label for="header-phone" class="popup__input-text-label">Введите Ваш номер телефона:<input type="text" name="Phone" id="header-phone" class="popup__input-phone" placeholder="8(___) ___-____" required></label>
+							<button id="header-submit" class="popup__input-submit">Отправить</button>
+						</form>
+					</div>
+			</div>
+		</section>
+		<section class="features">
+			<div class="features__wrapper">
+				<h2 class="features__title">Почему выбирают нас?</h2>
+				<div class="features__blocks">
+					<div class="features__block">
+						<img src="img/features/1.png" alt="1" class="features__img" width="74" height="60" >
+						<span class="features__span features__span-short">
+							Работаем напрямую от СРО 
+						</span>
+					</div>
+					<div class="features__block">
+						<img src="img/features/2.png" alt="2" class="features__img" width="68" height="60">
+						<span class="features__span">
+							Являемся операторами 
+							по внесению 
+							специалистов в НРС
+						</span>
+					</div>
+					<div class="features__block">
+						<img src="img/features/3.png" alt="3" class="features__img" width="70" height="60">
+						<span class="features__span">
+							Бесплатные ежегодные 
+							проверки
+						</span>
+					</div>
+					<div class="features__block">
+						<img src="img/features/4.png" alt="4" class="features__img" width="69" height="60">
+						<span class="features__span">
+							Минимальные 
+							членские взносы
+						</span>
+					</div>
+					<div class="features__block">
+						<img src="img/features/5.png" alt="5" class="features__img" width="47" height="60">
+						<span class="features__span">
+							Личный куратор 24/7
+						</span>
+					</div>
+					<div class="features__block">
+						<img src="img/features/6.png" alt="6" class="features__img" width="67" height="60">
+						<span class="features__span">
+							Быстро
+						</span>
+					</div>
+					<div class="features__block">
+						<img src="img/features/7.png" alt="7" class="features__img" width="62" height="60">
+						<span class="features__span">
+							Официально
+						</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="phone">
+			<div class="phone__wrapper">
+				<h2 class="phone__title">Получите допуск или свяжитесь со специалистом</h2>
+				<a href="tel:+79062693742" class="phone__number">+7 906 269 37 42</a>
+			</div>
+		</section>
+		<section class="about">
+			<div class="about__wrapper">
+				<h2 class="about__title">О нас</h2>
+				<div class="about__block">
+					<img src="img/about/img.png" alt="img" class="about__img" width="213" height="154">
+					<p class="about__descr">
+						Работаем с 2012 года.<br>
+						Прошли успешно все проверки, внесены в реестр 
+						добросовестных СРО. Все средства компенсационных 
+						фондов размещены на специальных счетах в аккредитованном 
+						банке. КФ сформированы в полном историческом объеме.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="team">
+			<div class="team__wrapper">
+				<h2 class="team__title">Команда</h2>
+				<div class="team__block">
+					<div class="team__block-item">
+						<img src="img/team/1.png" alt="1" class="team__img border_red" width="185" height="186">
+						<span class="team__name">елизавета</span>
+						<p class="team__descr">Ведущий специалист</p>
+					</div>
+					<div class="team__block-item">
+						<img src="img/team/2.png" alt="2" class="team__img border_red" width="185" height="186">
+						<span class="team__name">дарья</span>
+						<p class="team__descr">Куратор отдела</p>
+					</div>
+					<div class="team__block-item">
+						<img src="img/team/3.png" alt="3" class="team__img border_blue" width="185" height="186">
+						<span class="team__name">кристина</span>
+						<p class="team__descr">
+							Специалист-эксперт 
+							по вопросам возврата 
+							компенсационных фондов
+						</p>
+					</div>
+					<div class="team__block-item">
+						<img src="img/team/4.png" alt="4" class="team__img border_blue" width="185" height="186">
+						<span class="team__name">эльвира</span>
+						<p class="team__descr">Главный юрист</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="assurance">
+			<div class="assurance__wrapper">
+				<h2 class="assurance__title">Наши гарантии</h2>
+				<img src="img/assurance/img.png" alt="img" class="assurance__img" width="122" height="164">
+				<ul class="assurance__list">
+					<li class="assurance__list-item">Максимум 2 дня для внесения вашей организации в НОПРИЗ</li>
+					<li class="assurance__list-item">Максимум 2 дня получение выписки из реестра СРО</li>
+					<li class="assurance__list-item">Консультация по вопросам внесения специалистов</li>
+				</ul>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="contacts__wrapper">
+				<h2 class="contacts__title">С какими СРО мы работаем?</h2>
+				<img src="img/contacts/img.png" alt="img" class="contacts__img" width="414" height="233">
+				<p class="contacts__descr">
+					Только надежные СРО, которые прошли проверку 
+					РТН и внесены в реестр безупречных СРО
+				</p>
+				<div class="contacts__block">
+					<div class="contacts__block-item">
+						<span class="contacts__block-title">звоните</span>
+						<a href="tel:+79062693742" class="contacts__block-info">+7 (906) 269 37 42</a>
+					</div>
+					<div class="contacts__block-item">
+						<span class="contacts__block-title">Пишите</span>
+						<p class="contacts__block-info">osnovasro2020@mail.ru</p>
+					</div>
+					<div class="contacts__block-item">
+						<span class="contacts__block-title">приходите</span>
+						<p class="contacts__block-info">Центральный офис: Ленинградская область, г. Мурино, ул. Центральная д.46, второй этаж. Индекс 188662</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<h2 class="footer__title">остались вопросы?</h2>
+			<div class="footer__info">
+				<span class="footer__text">спросите Лизу</span>
+				<a href="tel:+79062693742" class="footer__tel">+7 (906) 269 37 42</a>
+			</div>
+			<img src="img/footer/img.png" alt="img" class="footer__img" width="218" height="218">
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+</body>
+</html>

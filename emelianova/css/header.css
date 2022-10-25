@@ -1,0 +1,126 @@
+.header__wrapper {
+  margin: 0 auto;
+  padding: 168px 0 0 0;
+  width: 1155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  min-height: 885px; }
+
+.header__block {
+  width: 100%;
+  z-index: 2;
+  background-color: rgba(0, 125, 215, 0); }
+
+.header__title {
+  color: #ffffff;
+  font-family: Gilroy-Heavy;
+  font-size: 94px;
+  font-weight: 400;
+  line-height: 78.34px;
+  width: 466px;
+  z-index: 2; }
+
+.header__word {
+  font-size: 83px; }
+
+.header__subtitle {
+  color: #e0351c;
+  font-family: Gilroy-Regular;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 46.87px;
+  position: absolute;
+  margin: -16px 0px 0px 287px; }
+
+.header__img {
+  z-index: 0;
+  position: absolute;
+  margin: -55px 0 0 414px; }
+
+.header__list {
+  min-height: 157px;
+  width: 395px;
+  margin: 144px 0 0 45px; }
+  .header__list-item {
+    color: #ffffff;
+    font-family: Gilroy-Regular;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 26px 0 0 0; }
+
+.header__button {
+  margin: 150px auto 0 auto;
+  cursor: pointer; }
+
+.header__popup {
+  padding: 15px 0 56px 0;
+  position: fixed;
+  top: 50%;
+  margin-top: -175px;
+  left: 50%;
+  margin-left: -450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 900px;
+  background-color: #0b1311;
+  z-index: 2; }
+  .header__popup-thx {
+    padding: 15px 0 56px 0;
+    position: fixed;
+    top: 50%;
+    margin-top: -126px;
+    left: 50%;
+    margin-left: -450px;
+    display: none;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 900px;
+    background-color: #0b1311;
+    z-index: 2; }
+
+.popup__form-header {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 714px;
+  text-align: center; }
+
+.popup__title-header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-weight: 400;
+  line-height: 40.05px;
+  font-size: 80px; }
+
+.popup__descr-header {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-family: Gilroy-Regular;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 62.05px; }
